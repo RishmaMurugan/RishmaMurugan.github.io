@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e6968070.css",
+    "main.js": "/static/js/main.4a870f0f.js",
+    "static/js/787.9c4facac.chunk.js": "/static/js/787.9c4facac.chunk.js",
+    "static/media/vr.jpg": "/static/media/vr.8b910f4054ae8a7cd4b0.jpg",
+    "static/media/bearpairs2.jpg": "/static/media/bearpairs2.36b84bd7e3eb339ac059.jpg",
+    "static/media/sheroes.png": "/static/media/sheroes.08c7834a3ee9f48030f2.png",
+    "static/media/asana.png": "/static/media/asana.0e294112a04d73856bcd.png",
+    "static/media/profile.jpeg": "/static/media/profile.ade7c55b7050f1facc09.jpeg",
+    "static/media/blossomvr.png": "/static/media/blossomvr.991f8543bd43bbe0aade.png",
+    "static/media/servicetitan.png": "/static/media/servicetitan.4d261f5feffeb80dbf71.png",
+    "static/media/disney.png": "/static/media/disney.c8d7731db8d5b8690f98.png",
+    "static/media/clockwise.png": "/static/media/clockwise.9f2153612a2f2059f384.png",
+    "index.html": "/index.html",
+    "main.e6968070.css.map": "/static/css/main.e6968070.css.map",
+    "main.4a870f0f.js.map": "/static/js/main.4a870f0f.js.map",
+    "787.9c4facac.chunk.js.map": "/static/js/787.9c4facac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6968070.css",
+    "static/js/main.4a870f0f.js"
+  ]
+}
