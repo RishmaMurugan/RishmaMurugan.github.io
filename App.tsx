@@ -20,6 +20,7 @@ import Profile from './profile.jpeg';
 import BearPairs from './bearpairs2.jpg';
 import Sheroes from './sheroes.png';
 import VR from './vr.jpg';
+import React from 'react';
 
 function App() {
   return (
@@ -51,7 +52,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="min-h-fit flex flex-start text-ivory bg-dark-blue/75">
+      <div className="min-h-fit pb-10 flex flex-start text-ivory bg-dark-blue/75">
         <div>
           <p id="about" className="font-sans scroll-mt-20 text-5xl font-bold px-20 pt-20 leading-10">
             <a href="#about">a little about me:</a>
