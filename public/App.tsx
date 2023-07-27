@@ -20,6 +20,7 @@ import Profile from './profile.jpeg';
 import BearPairs from './bearpairs2.jpg';
 import Sheroes from './sheroes.png';
 import VR from './vr.jpg';
+import React from 'react';
 
 function App() {
   return (
