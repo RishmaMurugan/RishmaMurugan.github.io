@@ -16,7 +16,6 @@ import Asana from'./asana.png';
 import Disney from'./disney.png';
 import ServiceTitan from './servicetitan.png';
 import BlossomVR from './blossomvr.png';
-import Mem from './mem.png';
 import Profile from './profile.jpeg';
 import BearPairs from './bearpairs2.jpg';
 import Sheroes from './sheroes.png';
@@ -27,7 +26,7 @@ function App() {
     <div className="bg-ivory">
       <Box sx={{ flexGrow: 1 }}>
         <AppBar position="fixed">
-          <Toolbar className="flex bg-dark-blue font-sans h-[90px] min-h-[90px]">
+          <Toolbar className="flex bg-dark-blue font-sans h-24">
             <h2 className="flex grow justify-start text-4xl text-ivory mx-3"><a href="#">rishma murugan</a></h2>
             <h2 className="text-ivory text-3xl mx-3"><a href="#about">about</a></h2>
             <h2 className="text-ivory text-3xl mx-3"><a href="#experience">experience</a></h2>
@@ -52,7 +51,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="min-h-fit pb-10 flex flex-start text-ivory bg-dark-blue/75">
+      <div className="min-h-fit flex flex-start text-ivory bg-dark-blue/75">
         <div>
           <p id="about" className="font-sans scroll-mt-20 text-5xl font-bold px-20 pt-20 leading-10">
             <a href="#about">a little about me:</a>
@@ -81,7 +80,7 @@ function App() {
           </p>
           <p className="font-sans text-3xl pt-5 leading-10">
             For more info, check out my {" "}
-            <a className="underline" href="https://drive.google.com/file/d/1SA15uDboAtJj9JtYwO14jaqlAjW-seQG/view?usp=sharing" target="_blank">resume</a> 
+            <a className="underline" href="https://drive.google.com/file/d/17tYEsQNgsoVeTFt9fVbVAj6VxDxGr3mY/view?usp=sharing" target="_blank">resume</a> 
             {" "}or {" "}
             <a className="underline" href="https://www.linkedin.com/in/rishma-murugan/" target="_blank">LinkedIn</a> 
             !
@@ -94,31 +93,7 @@ function App() {
               align="right"
               variant="body2"
             >
-              <p className="text-2xl mx-5 font-sans font-bold font-sans">Sept. 2022 - Present</p>
-            </TimelineOppositeContent>
-            <TimelineSeparator>
-              <TimelineConnector style={{ background: '#f4eae6' }} />
-              <TimelineDot style={{ background: '#f4eae6' }}
-                className="w-20 h-20 align-middle justify-center items-center">
-                <a href="https://get.mem.ai/" target="_blank">
-                  <img className="max-w-[100px] max-h-[100px] pb-[5px]" src={Mem}/>
-                </a>
-              </TimelineDot>
-              <TimelineConnector  style={{ background: '#f4eae6' }}  />
-            </TimelineSeparator>
-            <TimelineContent sx={{ py: '12px', px: 2 }}>
-              <p className="text-4xl mx-5 font-bold font-sans">Mem Labs</p>
-              <p className="text-2xl mx-5  font-sans italic">Software Engineer</p>
-              <p className="text-xl mx-5  font-sans">Full-stack web development</p>
-            </TimelineContent>
-          </TimelineItem>
-          <TimelineItem>
-            <TimelineOppositeContent 
-              sx={{ m: 'auto 0' }}
-              align="right"
-              variant="body2"
-            >
-              <p className="mx-5 text-2xl font-sans font-bold font-sans">May 2022 - Aug. 2022</p>
+              <p className="mx-5 text-2xl font-sans font-bold font-sans">May 2022 - Present</p>
             </TimelineOppositeContent>
             <TimelineSeparator>
               <TimelineConnector style={{ background: '#f4eae6' }} />
