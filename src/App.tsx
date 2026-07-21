@@ -17,6 +17,7 @@ import Disney from'./disney.png';
 import ServiceTitan from './servicetitan.png';
 import BlossomVR from './blossomvr.png';
 import Mem from './mem.png';
+import Scale from './scale.png';
 import Profile from './profile.jpeg';
 import BearPairs from './bearpairs2.jpg';
 import Sheroes from './sheroes.png';
@@ -81,20 +82,42 @@ function App() {
           </p>
           <p className="font-sans text-3xl pt-5 leading-10">
             For more info, check out my {" "}
-            <a className="underline" href="https://drive.google.com/file/d/1SA15uDboAtJj9JtYwO14jaqlAjW-seQG/view?usp=sharing" target="_blank">resume</a> 
-            {" "}or {" "}
-            <a className="underline" href="https://www.linkedin.com/in/rishma-murugan/" target="_blank">LinkedIn</a> 
+            <a className="underline" href="https://www.linkedin.com/in/rishma-murugan/" target="_blank">LinkedIn</a>
             !
           </p>
         </div>
         <Timeline position="alternate">
           <TimelineItem>
-            <TimelineOppositeContent 
+            <TimelineOppositeContent
               sx={{ m: 'auto 0' }}
               align="right"
               variant="body2"
             >
-              <p className="text-2xl mx-5 font-sans font-bold font-sans">Sept. 2022 - Present</p>
+              <p className="text-2xl mx-5 font-sans font-bold font-sans">Oct. 2023 - Present</p>
+            </TimelineOppositeContent>
+            <TimelineSeparator>
+              <TimelineConnector style={{ background: '#f4eae6' }} />
+              <TimelineDot style={{ background: '#f4eae6' }}
+                className="w-20 h-20 align-middle justify-center items-center">
+                <a href="https://scale.com/" target="_blank">
+                  <img className="max-w-[64px] max-h-[64px] rounded-lg" src={Scale}/>
+                </a>
+              </TimelineDot>
+              <TimelineConnector  style={{ background: '#f4eae6' }}  />
+            </TimelineSeparator>
+            <TimelineContent sx={{ py: '12px', px: 2 }}>
+              <p className="text-4xl mx-5 font-bold font-sans">Scale AI</p>
+              <p className="text-2xl mx-5  font-sans italic">Senior Software Engineer</p>
+              <p className="text-xl mx-5  font-sans">AI systems for model development</p>
+            </TimelineContent>
+          </TimelineItem>
+          <TimelineItem>
+            <TimelineOppositeContent
+              sx={{ m: 'auto 0' }}
+              align="right"
+              variant="body2"
+            >
+              <p className="text-2xl mx-5 font-sans font-bold font-sans">Sept. 2022 - July 2023</p>
             </TimelineOppositeContent>
             <TimelineSeparator>
               <TimelineConnector style={{ background: '#f4eae6' }} />
