@@ -78,7 +78,7 @@ function App() {
             experience:
           </p>
           <p className="font-sans text-3xl pt-5 leading-10">
-            In the past, I've worked at a variety of startups & larger companies, focusing on web, VR, and mobile development.
+            I've spent the last few years building LLM-powered products, and before that worked across web, VR, and mobile.
           </p>
           <p className="font-sans text-3xl pt-5 leading-10">
             For more info, check out my {" "}
