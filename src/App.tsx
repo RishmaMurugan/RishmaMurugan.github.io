@@ -100,7 +100,7 @@ function App() {
               <TimelineDot style={{ background: '#f4eae6' }}
                 className="w-20 h-20 align-middle justify-center items-center">
                 <a href="https://scale.com/" target="_blank">
-                  <img className="max-w-[64px] max-h-[64px] rounded-lg" src={Scale}/>
+                  <img className="max-w-[44px] max-h-[44px] rounded-md" src={Scale}/>
                 </a>
               </TimelineDot>
               <TimelineConnector  style={{ background: '#f4eae6' }}  />
