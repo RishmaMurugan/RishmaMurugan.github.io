@@ -26,7 +26,7 @@ function App() {
     <div className="bg-ivory">
       <Box sx={{ flexGrow: 1 }}>
         <AppBar position="fixed">
-          <Toolbar className="flex bg-dark-blue font-sans h-24">
+          <Toolbar className="flex bg-dark-blue font-sans h-18">
             <h2 className="flex grow justify-start text-4xl text-ivory mx-3"><a href="#">rishma murugan</a></h2>
             <h2 className="text-ivory text-3xl mx-3"><a href="#about">about</a></h2>
             <h2 className="text-ivory text-3xl mx-3"><a href="#experience">experience</a></h2>
